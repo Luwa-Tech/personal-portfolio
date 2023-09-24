@@ -6,6 +6,24 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: {
+          500: '#FFFFFF',
+          600: '#000000',
+          700: '#E6E6FA',
+          800: '#dfdffd'
+        },
+        secondary: {
+          400: '#2A2AD1',
+          500: '#4D4DDB',
+          600: '#17175cb3',
+          700: '#0000007d',
+        },
+        button: {
+          400: "#1E1E1E"
+        },
+
+      },
       fontFamily: {
         poppins: ['Poppins']
       }
