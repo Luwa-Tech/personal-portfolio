@@ -4,7 +4,7 @@ import {FaXTwitter} from "react-icons/fa6"
 const Home = () => {
     return (
         <main className="bg-primary-700 h-full">
-        <section className="flex fixed left-[4rem] right-0 top-0 h-[1.2rem] justify-between md:px-12 items-center font-poppins pl-10 pr-16 py-8">
+        <section className="flex fixed left-[4rem] right-0 top-0 h-[1.2rem] justify-between md:px-12 items-center font-poppins pl-8 pr-4 py-8">
             <div className="flex items-center gap-6 md:gap-4">
                 <BsLinkedin className="md:w-[1.2rem] w-[1.3rem] h-[1.3rem] md:h-[1.2rem]"/>
                 <BsGithub className="md:w-[1.2rem] w-[1.3rem] h-[1.3rem] md:h-[1.2rem]"/>
@@ -20,18 +20,18 @@ const Home = () => {
             <div className="md:w-[70%] flex flex-col gap-2 ">
                 <h1 className="font-extrabold font-poppins md:text-[5rem] leading-normal text-[3.3rem]">Hey, I'm Umar<span className="text-secondary-400">.</span></h1>
                 <h2 className="md:text-[2rem] text-[1.7rem] leading-normal">I'm a Software Engineer specialized in Web Development</h2>
-                <p className="md:text-[1.2rem] text-[1.2rem]">I've spent the last 5 years building and scaling software for some pretty cool companies. I also teach people to paint online (incase you've got an empty canvas layin' around 🎨). Let's connect!</p>
+                <p className="text-[1.2rem]">I've spent the last 5 years building and scaling software for some pretty cool companies. I also teach people to paint online (incase you've got an empty canvas layin' around 🎨). Let's connect!</p>
                 <button className="bg-secondary-400 md:w-[20%] w-[50%] py-[.5rem] rounded-[.3rem] text-white font-poppins">Contact me</button>
             </div>
         </section>
 
         {/* About */}
         <section className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] pb-[10rem]">
-            <h2 className="font-poppins md:text-[3.5rem] font-extrabold relative right-line">About<span className="text-secondary-400">.</span></h2>
+            <h2 className="font-poppins md:text-[3.5rem] font-extrabold relative text-[2rem] after:absolute md:after:top-[48px] after:top-[27px] after:right-[10px] after:block after:h-[.1rem] after:bg-[#d0d0f3] md:after:right-[-40px] after:w-[57%] md:after:w-[80%] ">About<span className="text-secondary-400">.</span></h2>
 
             <div className="flex flex-col md:flex-row gap-4">
                 <article>
-                    <p className="md:text-[1.2rem] md:w-[78%]">
+                    <p className="text-[1.2rem] md:w-[78%]">
                         hey! I'm Bob, if you haven't already gathered that by now. I'm a painter turned software engineer from Daytona, Florida. I specialize in the backend, primarily Node and Rust, but love building with whatever tools are right for the job.
                         I currently work for Google on Google Photos. I also toss in my ¢2 with the design systems teams from time to time (once an artist, always an artist, amirite?).
                         Outside of work, I still love to paint. Any given Sunday you'll find me scribbling some happy clouds with my son ☁️ I even teach courses online if you're looking to learn!
@@ -65,8 +65,8 @@ const Home = () => {
         </section>
 
         {/* Project */}
-        <section className="md:w-[70%] md:mx-auto md:pb-[13rem]">
-        <h2 className="font-poppins md:text-[3.5rem] font-extrabold relative left-line text-right">Projects<span className="text-secondary-400">.</span></h2>
+        <section className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] pb-[10rem]">
+        <h2 className="font-poppins md:text-[3.5rem] font-extrabold relative text-right text-[2rem] after:absolute md:after:top-[48px] after:top-[27px] after:left-[4px] after:block after:h-[.1rem] after:bg-[#d0d0f3] md:after:left-[-5px] after:w-[45%] md:after:w-[70%]">Projects<span className="text-secondary-400">.</span></h2>
 
         <section>
             <article>

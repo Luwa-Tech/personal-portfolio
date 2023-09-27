@@ -7,18 +7,7 @@
     color: #dfdffd
 }
 
-.right-line::after {
-    content: "";
-    position: absolute;
-    right: -40px;
-    width: 80%;
-    height: .1rem;
-    top: 48px;
-    display: block;
-    background: #d0d0f3;
-}
-
-.left-line::before {
+/* .left-line::before {
     content: "";
     position: absolute;
     left: -5px;
@@ -27,4 +16,4 @@
     top: 48px;
     display: block;
     background: #d0d0f3;
-}
+} */
