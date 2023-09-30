@@ -31,7 +31,7 @@ const Home = () => {
             </section>
 
             {/* About */}
-            <section className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] pb-[10rem]">
+            <section className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] pb-[8rem]">
                 <h2 className="font-poppins md:text-[3.5rem] font-extrabold relative text-[2rem] after:absolute md:after:top-[48px] after:top-[27px] after:right-[10px] after:block after:h-[.1rem] after:bg-[#d0d0f3] md:after:right-[-40px] after:w-[57%] md:after:w-[80%] ">About<span className="text-secondary-400">.</span></h2>
 
                 <div className="flex flex-col md:flex-row gap-4">
@@ -70,26 +70,26 @@ const Home = () => {
             </section>
 
             {/* Project */}
-            <section className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] pb-[10rem]">
+            <section className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] pb-[8rem]">
                 <h2 className="font-poppins md:text-[3.5rem] font-extrabold relative text-right text-[2rem] after:absolute md:after:top-[48px] after:top-[27px] after:left-[4px] after:block after:h-[.1rem] after:bg-[#d0d0f3] md:after:left-[-5px] after:w-[45%] md:after:w-[70%]">Projects<span className="text-secondary-400">.</span></h2>
 
                 <section className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
                     <article className="">
-                        <div className="pt-8 px-4 bg-primary-800 rounded-[.5rem]">
+                        <div className="pt-12 md:pt-14 px-6 md:px-8 bg-primary-800 rounded-[.5rem]">
                             <img src={talentBridge} alt="talentbridge image"/>
                             </div>
                         <div className="flex items-center justify-between mt-2">
-                            <h3 className="text-[1.6rem] md:text-[2rem] font-extrabold">Exclusive</h3>
+                            <h3 className="text-[1.6rem] md:text-[2rem] font-extrabold">Talentbridge</h3>
                             <div className="flex items-center gap-2">
                                 <BsGithub className=" w-[1.4rem] h-[1.4rem]"/>
                                 <GoProjectSymlink className="w-[1.4rem] h-[1.4rem]"/>
                             </div>
                         </div>
-                        <span className="text-secondary-400 font-bold text-[1.2rem]">React - Node - TailwindCSS - Stripe - TypeScript</span>
+                        <span className="text-secondary-400 font-bold text-[1.2rem]">React - NodeJS - MongoDB - ExpressJS - TailwindCSS</span>
                         <p className="text-[1.2rem] mt-2">A social community for painters to connect with others in their community. I handle everything backend (50K monthly active users). <span className="text-secondary-400 font-bold hover:underline cursor-pointer">Learn more<IoIosArrowForward className="inline  w-[1rem] h-[1rem]"/></span></p>
                     </article>
                     <article className="">
-                        <div className="pt-8 px-4 bg-primary-800 rounded-[.5rem]">
+                        <div className="pt-12 md:pt-14 px-6 md:px-8 bg-primary-800 rounded-[.5rem]">
                             <img src={exclusive} alt="talentbridge image"/>
                             </div>
                         <div className="flex items-center justify-between mt-2">
@@ -106,12 +106,34 @@ const Home = () => {
             </section>
 
             {/* Experience */}
-            <section className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] pb-[10rem]">
+            <section className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] pb-[8rem]">
                 <h2 className="font-poppins md:text-[3.5rem] font-extrabold relative text-[2rem] after:absolute md:after:top-[48px] after:top-[27px] after:right-[10px] after:block after:h-[.1rem] after:bg-[#d0d0f3] md:after:right-[-40px] after:w-[38%] md:after:w-[65%] ">Experience<span className="text-secondary-400">.</span></h2>
+
+                <section className="mt-4">
+                    <article>
+                        <div className="text-[1.2rem] flex items-center justify-between">
+                            <h3 className="font-bold text-[1.3rem]">Google</h3>
+                            <span>2022 - Present</span>
+                        </div>
+                        <div className="text-[1.2rem] flex items-center justify-between my-2">
+                            <h4 className="font-bold text-secondary-400">Software Engineer</h4>
+                            <span>San Francisco</span>
+                        </div>
+                        <p className="text-[1.2rem] mb-4">I help build and scale Google Photos. Increased throughput of our primary services by 70%. Migrated backend service from Java to Go. Also helped make it look prettier.</p>
+
+                        <div className="text-[1.2rem] grid gap-6">
+                            <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Angular</span>
+                            <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Python</span>
+                            <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">GCP</span>
+                            <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Git</span>
+                            <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">GitHub</span>
+                        </div>
+                    </article>
+                </section>
             </section>
 
             {/* Contact */}
-            <section className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] pb-[10rem]">
+            <section className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] pb-[8rem]">
                 <h2 className="font-extrabold font-poppins md:text-[6rem] leading-normal text-center text-[3.3rem]">Contact<span className="text-secondary-400">.</span></h2>
                 <p className="text-center text-[1.2rem] md:w-[60%] md:mx-auto">Shoot me an email if you want to connect! You can also find me on Linkedin or Twitter if that's more your speed.</p>
                 <h4></h4>
