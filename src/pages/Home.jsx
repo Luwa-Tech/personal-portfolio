@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom"
+
 import { BsLinkedin, BsGithub } from "react-icons/bs"
 import { FaXTwitter } from "react-icons/fa6"
 import {IoIosArrowForward} from "react-icons/io"
@@ -20,7 +22,15 @@ const Home = () => {
 
             {/* Sidebar */}
             <section className="fixed left-0 w-[4.5rem] md:w-[5rem] top-0 bottom-0 bg-primary-800">
-
+                <nav className="px-2 pt-[.65rem] flex flex-col items-center gap-[4rem]">
+                    <span className="text-[1.8rem] font-extrabold">L</span>
+                    <ul className="">
+                        <li className="nav-upward border-2 border-slate-700 w-[100%] mb-[4rem]"><NavLink to="about" className="text-[1.4rem]">About</NavLink></li>
+                        <li className="nav-upward mb-[4rem]"><NavLink to="projects" className="text-[1.4rem]">Projects</NavLink></li>
+                        <li className="nav-upward mb-[4rem] border-2 border-slate-700"><NavLink to="experience" className="text-[1.4rem]">Exp.</NavLink></li>
+                        <li className="nav-upward"><NavLink to="contact" className="text-[1.4rem]">Contact</NavLink></li>
+                    </ul>
+                </nav>
             </section>
 
 
@@ -36,7 +46,7 @@ const Home = () => {
 
 
             {/* About */}
-            <section className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] pb-[8rem]">
+            <section id="about" className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] pb-[8rem]">
                 <h2 className="font-poppins md:text-[3.5rem] font-extrabold relative text-[2rem] after:absolute md:after:top-[48px] after:top-[27px] after:right-[10px] after:block after:h-[.1rem] after:bg-[#d0d0f3] md:after:right-[-40px] after:w-[57%] md:after:w-[80%] ">About<span className="text-secondary-400">.</span></h2>
 
                 <div className=" border-2 border-slate-800 flex gap-6 flex-col md:flex-row">
@@ -77,7 +87,7 @@ const Home = () => {
 
 
             {/* Project */}
-            <section className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] pb-[8rem]">
+            <section id="projects" className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] pb-[8rem]">
                 <h2 className="font-poppins md:text-[3.5rem] font-extrabold relative text-right text-[2rem] after:absolute md:after:top-[48px] after:top-[27px] after:left-[4px] after:block after:h-[.1rem] after:bg-[#d0d0f3] md:after:left-[-5px] after:w-[45%] md:after:w-[70%]">Projects<span className="text-secondary-400">.</span></h2>
 
                 <section className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
@@ -115,7 +125,7 @@ const Home = () => {
 
 
             {/* Experience */}
-            <section className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] pb-[8rem]">
+            <section id="experience" className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] pb-[8rem]">
                 <h2 className="font-poppins md:text-[3.5rem] font-extrabold relative text-[2rem] after:absolute md:after:top-[48px] after:top-[27px] after:right-[10px] after:block after:h-[.1rem] after:bg-[#d0d0f3] md:after:right-[-40px] after:w-[38%] md:after:w-[65%] ">Experience<span className="text-secondary-400">.</span></h2>
 
                 <section className="mt-4">
@@ -164,7 +174,7 @@ const Home = () => {
 
 
             {/* Contact */}
-            <section className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] pb-[8rem]">
+            <section id="contact" className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] pb-[8rem]">
                 <h2 className="font-extrabold font-poppins md:text-[6rem] leading-normal text-center text-[3.3rem]">Contact<span className="text-secondary-400">.</span></h2>
                 <p className="text-center text-[1.2rem] md:w-[60%] md:mx-auto">Shoot me an email if you want to connect! You can also find me on Linkedin or Twitter if that's more your speed.</p>
                 <h4></h4>

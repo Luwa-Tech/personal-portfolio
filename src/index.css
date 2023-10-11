@@ -11,13 +11,7 @@ img{
     color: #dfdffd
 }
 
-/* .left-line::before {
-    content: "";
-    position: absolute;
-    left: -5px;
-    width: 70%;
-    height: .12rem;
-    top: 48px;
-    display: block;
-    background: #d0d0f3;
-} */
+.nav-upward {
+    transform: rotate(90deg);
+    /* transform-origin: top left; */
+}
