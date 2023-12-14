@@ -2,11 +2,6 @@ import { NavLink } from "react-router-dom"
 
 import { BsLinkedin, BsGithub } from "react-icons/bs"
 import { FaXTwitter } from "react-icons/fa6"
-// import {IoIosArrowForward} from "react-icons/io"
-// import {GoProjectSymlink} from "react-icons/go"
-
-// import talentBridge from "../assets/images/talentbridge.png"
-// import exclusive from "../assets/images/exclusive.png"
 
 import Sidebar from "../components/Sidebar"
 import About from "../components/About"

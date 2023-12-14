@@ -1,49 +1,49 @@
 const Experience = () => {
     return (
         <>
-                            <h2 className="font-poppins md:text-[3.5rem] font-extrabold relative text-[2rem] after:absolute md:after:top-[48px] after:top-[27px] after:right-[10px] after:block after:h-[.1rem] after:bg-[#d0d0f3] md:after:right-[-40px] after:w-[38%] md:after:w-[65%] ">Experience<span className="text-secondary-400">.</span></h2>
+            <h2 className="font-poppins md:text-[3.5rem] font-extrabold relative text-[2rem] after:absolute md:after:top-[48px] after:top-[27px] after:right-[10px] after:block after:h-[.1rem] after:bg-[#d0d0f3] md:after:right-[-40px] after:w-[38%] md:after:w-[65%] ">Experience<span className="text-secondary-400">.</span></h2>
 
-<section className="mt-4">
-    <article className="border-b-[1.5px] border-[#d0d0f3] py-8">
-        <div className="text-[1.2rem] flex items-center justify-between">
-            <h3 className="font-bold text-[1.3rem]">Tublian</h3>
-            <span>2022 - Present</span>
-        </div>
-        <div className="text-[1.2rem] flex items-center justify-between my-2">
-            <h4 className="font-bold text-secondary-400">Open-source Developer</h4>
-            <span>San Francisco</span>
-        </div>
-        <p className="text-[1.2rem] mb-4">I help build and scale Google Photos. Increased throughput of our primary services by 70%. Migrated backend service from Java to Go. Also helped make it look prettier.</p>
+            <section className="mt-4">
+                <article className="border-b-[1.5px] border-[#d0d0f3] py-8">
+                    <div className="text-[1.2rem] flex items-center justify-between">
+                        <h3 className="font-bold text-[1.3rem]">Tublian</h3>
+                        <span>2022 - Present</span>
+                    </div>
+                    <div className="text-[1.2rem] flex items-center justify-between my-2">
+                        <h4 className="font-bold text-secondary-400">Open-source Developer</h4>
+                        <span>San Francisco</span>
+                    </div>
+                    <p className="text-[1.2rem] mb-4">I help build and scale Google Photos. Increased throughput of our primary services by 70%. Migrated backend service from Java to Go. Also helped make it look prettier.</p>
 
-        <div className="text-[1.2rem] flex flex-wrap gap-4">
-            <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Angular</span>
-            <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Python</span>
-            <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">GCP</span>
-            <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Git</span>
-            <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">GitHub</span>
-        </div>
-    </article>
+                    <div className="text-[1.2rem] flex flex-wrap gap-4">
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Angular</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Python</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">GCP</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Git</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">GitHub</span>
+                    </div>
+                </article>
 
-    <article className="border-b-[1.5px] border-[#d0d0f3] py-8">
-        <div className="text-[1.2rem] flex items-center justify-between">
-            <h3 className="font-bold text-[1.3rem]">Chingu</h3>
-            <span>2022 - Present</span>
-        </div>
-        <div className="text-[1.2rem] flex items-center justify-between my-2">
-            <h4 className="font-bold text-secondary-400">Frontend Engineer</h4>
-            <span>San Francisco</span>
-        </div>
-        <p className="text-[1.2rem] mb-4">I help build and scale Google Photos. Increased throughput of our primary services by 70%. Migrated backend service from Java to Go. Also helped make it look prettier.</p>
+                <article className="border-b-[1.5px] border-[#d0d0f3] py-8">
+                    <div className="text-[1.2rem] flex items-center justify-between">
+                        <h3 className="font-bold text-[1.3rem]">Chingu</h3>
+                        <span>2022 - Present</span>
+                    </div>
+                    <div className="text-[1.2rem] flex items-center justify-between my-2">
+                        <h4 className="font-bold text-secondary-400">Frontend Engineer</h4>
+                        <span>San Francisco</span>
+                    </div>
+                    <p className="text-[1.2rem] mb-4">I help build and scale Google Photos. Increased throughput of our primary services by 70%. Migrated backend service from Java to Go. Also helped make it look prettier.</p>
 
-        <div className="text-[1.2rem] flex flex-wrap gap-4">
-            <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">React</span>
-            <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Javascript</span>
-            <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">NodeJS</span>
-            <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Github Projects</span>
-            <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">TailwindCSS</span>
-        </div>
-    </article>
-</section>
+                    <div className="text-[1.2rem] flex flex-wrap gap-4">
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">React</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Javascript</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">NodeJS</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Github Projects</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">TailwindCSS</span>
+                    </div>
+                </article>
+            </section>
         </>
     )
 }
