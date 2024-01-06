@@ -13,9 +13,15 @@ const Home = () => {
         <main className="bg-primary-700 h-full">
             <section className="flex fixed left-[4rem] right-0 top-0 h-[1.2rem] justify-between z-[5] md:px-12 items-center font-poppins pl-8 pr-4 py-8 bg-[#e8e8fc] bg-opacity-50">
                 <div className="flex items-center gap-6 md:gap-4">
+                    <a href="https://www.linkedin.com/in/luwa-dev">
                     <BsLinkedin className="md:w-[1.2rem] w-[1.3rem] h-[1.3rem] md:h-[1.2rem] hover:text-secondary-400" />
+                    </a>
+                    <a href="https://github.com/Luwa-Tech">
                     <BsGithub className="md:w-[1.2rem] w-[1.3rem] h-[1.3rem] md:h-[1.2rem] hover:text-secondary-400" />
+                    </a>
+                    <a href="https://twitter.com/Luwa-Dev">
                     <FaXTwitter className="md:w-[1.2rem] w-[1.3rem] h-[1.3rem] md:h-[1.2rem] hover:text-secondary-400" />
+                    </a>
                 </div>
                 <button className=" bg-secondary-400 px-4 py-2 text-white rounded-[.3rem] text-[.9rem] md:text-[1rem] hover:bg-opacity-50 hover:border-secondary-400 transition-all ease-in-out">My resume</button>
             </section>
@@ -32,6 +38,7 @@ const Home = () => {
                     <h1 className="font-extrabold font-poppins md:text-[5rem] leading-normal text-[3.3rem]">Hey, I'm Umar<span className="text-secondary-400">.</span></h1>
                     <h2 className="md:text-[2rem] text-[1.7rem] leading-normal">I'm a Software Engineer</h2>
                     <p className="text-[1.2rem]">Please take a look around, see what I've been up to recently, and let's see what we can achieve together.</p>
+
                     <button className="bg-secondary-400 md:w-[20%] w-[50%] py-[.5rem] rounded-[.3rem] text-white font-poppins hover:bg-opacity-50 hover:border-secondary-400 transition-all ease-in-out">Contact me</button>
                 </div>
             </section>
