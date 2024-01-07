@@ -7,33 +7,32 @@ const Experience = () => {
                 <article className="border-b-[1.5px] border-[#d0d0f3] py-8">
                     <div className="text-[1.2rem] flex items-center justify-between">
                         <h3 className="font-bold text-[1.3rem]">Tublian</h3>
-                        <span>2022 - Present</span>
+                        <span>Oct 2023 - Dec 2023</span>
                     </div>
                     <div className="text-[1.2rem] flex items-center justify-between my-2">
-                        <h4 className="font-bold text-secondary-400">Open-source Developer</h4>
-                        <span>San Francisco</span>
+                        <h4 className="font-bold text-secondary-400">Open-source Developer Intern</h4>
+                        <span>Remote</span>
                     </div>
-                    <p className="text-[1.2rem] mb-4">I help build and scale Google Photos. Increased throughput of our primary services by 70%. Migrated backend service from Java to Go. Also helped make it look prettier.</p>
+                    <p className="text-[1.2rem] mb-4">Improved open-source codebases through bug fixes and documentation.</p>
 
                     <div className="text-[1.2rem] flex flex-wrap gap-4">
-                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Angular</span>
-                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Python</span>
-                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">GCP</span>
-                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Git</span>
-                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">GitHub</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Javascript</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">CSS</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Documentation</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">React</span>
                     </div>
                 </article>
 
                 <article className="border-b-[1.5px] border-[#d0d0f3] py-8">
                     <div className="text-[1.2rem] flex items-center justify-between">
                         <h3 className="font-bold text-[1.3rem]">Chingu</h3>
-                        <span>2022 - Present</span>
+                        <span>July 2023 - Sep 2023</span>
                     </div>
                     <div className="text-[1.2rem] flex items-center justify-between my-2">
-                        <h4 className="font-bold text-secondary-400">Frontend Engineer</h4>
-                        <span>San Francisco</span>
+                        <h4 className="font-bold text-secondary-400">Frontend Developer</h4>
+                        <span>Remote</span>
                     </div>
-                    <p className="text-[1.2rem] mb-4">I help build and scale Google Photos. Increased throughput of our primary services by 70%. Migrated backend service from Java to Go. Also helped make it look prettier.</p>
+                    <p className="text-[1.2rem] mb-4">Led technical initiatives and srved as the product manager to achieve MVP objectives, ensuring efficient product management and clear communication.</p>
 
                     <div className="text-[1.2rem] flex flex-wrap gap-4">
                         <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">React</span>

@@ -11,7 +11,7 @@ const About = () => {
             <div className="flex flex-col gap-6 md:flex-row justify-between">
                 <section className="md:w-[65%] mb-8 md:mb-0">
                     <p className="text-[1.2rem]">
-                        I'm an affiliate marketer turned software engineer from Abuja, Nigeria. I specialize in frontend, primarily with React and node, but love to learn and build with whatever tools are right for the job.I've a thing for open source projects, user-centric solutions, and continuous learning. I'm currently working on TalentBridge.<br />
+                        I'm an affiliate marketer turned software engineer from Abuja, Nigeria. I specialize in frontend, primarily with React and node, but love to learn and build with whatever tools are right for the job.I've a thing for open source projects, user-centric solutions, and continuous learning. I'm currently working on <a href="https://talentbridge-app.netlify.app/" className="text-secondary-400">TalentBridge</a>.<br />
                         I'm actively looking for new roles where I can innovate, solve problems, sleep, and repeat. If you think you've got an opening that I might like, let's connect
                     </p>
                     <div className="flex items-center gap-4 mt-4">

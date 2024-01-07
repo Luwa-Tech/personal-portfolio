@@ -9,7 +9,7 @@ import Contact from "../components/Contact"
 
 const Home = () => {
     return (
-        <main className="bg-primary-700 h-full">
+        <main className="bg-primary-700 overflow-hidden">
             <section className="flex fixed left-[4rem] right-0 top-0 h-[1.2rem] justify-between z-[5] md:px-12 items-center font-poppins pl-8 pr-4 py-8 bg-[#e8e8fc] bg-opacity-50">
                 <div className="flex items-center gap-6 md:gap-4">
                     <a href="https://www.linkedin.com/in/luwa-dev">
@@ -44,22 +44,22 @@ const Home = () => {
             </section>
 
             {/* About */}
-            <section id="about" className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto text-primary-900 md:py-[5rem] pb-[6rem]">
+            <section id="about" className=" md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto text-primary-900 md:mb-[10rem] mb-[6rem]">
                 <About />
             </section>
 
             {/* Project */}
-            <section id="projects" className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 text-primary-900 mx-auto md:py-[5rem] pb-[6rem]">
+            <section id="projects" className=" md:w-[70%] pl-[5.5rem] pr-4 md:px-0 text-primary-900 mx-auto md:mb-[10rem] mb-[6rem]">
                 <Projects />
             </section>
 
             {/* Experience */}
-            <section id="experience" className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[5rem] text-primary-900 pb-[6rem]">
+            <section id="experience" className=" md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:mb-[10rem] text-primary-900 mb-[6rem]">
                 <Experience />
             </section>
 
             {/* Contact */}
-            <section id="contact" className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:pt-[5rem] md:pb-[16rem] pb-[8rem] text-primary-900">
+            <section id="contact" className=" md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:pb-[13rem] mb-[8rem]  text-primary-900">
                 <Contact />
             </section> 
         </main>
