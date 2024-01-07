@@ -8,8 +8,22 @@ img{
 
 
 .color {
-    color: #dfdffd
+    color: #d3d3f8
 }
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: .6rem;
+    row-gap: .6rem;
+    /* font-weight: 600; */
+}
+
+.sidebar-link {
+    @apply text-[1.1rem] text-primary-900 hover:border-r-[1.5px] md:text-[1.3rem] hover:border-r-secondary-400 hover:bg-[#d3d3f8] py-[1.4rem] flex justify-center font-semibold active:border-r-[1.5px] active:border-r-secondary-400 active:bg-[#d3d3f8]
+
+}
+
 
 .nav-upward {
     transform: rotate(90deg);

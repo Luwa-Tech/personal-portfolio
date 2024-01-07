@@ -1,42 +1,50 @@
 import { BsLinkedin, BsGithub } from "react-icons/bs"
 import { FaXTwitter } from "react-icons/fa6"
+import { FaArrowRightLong } from "react-icons/fa6"
+import { FaCode } from "react-icons/fa6"
 
 const About = () => {
     return (
         <>
             <h2 className="font-poppins md:text-[3.5rem] font-extrabold relative text-[2rem] after:absolute md:after:top-[48px] after:top-[27px] after:right-[10px] after:block after:h-[.1rem] after:bg-[#d0d0f3] md:after:right-[-40px] after:w-[57%] md:after:w-[80%] ">About<span className="text-secondary-400">.</span></h2>
 
-            <div className=" border-2 border-slate-800 flex gap-6 flex-col md:flex-row">
-                <article className="">
+            <div className="flex flex-col gap-6 md:flex-row justify-between">
+                <section className="md:w-[65%] mb-8 md:mb-0">
                     <p className="text-[1.2rem]">
-                        hey! I'm Bob, if you haven't already gathered that by now. I'm a painter turned software engineer from Daytona, Florida. I specialize in the backend, primarily Node and Rust, but love building with whatever tools are right for the job.
-                        I currently work for Google on Google Photos. I also toss in my ¢2 with the design systems teams from time to time (once an artist, always an artist, amirite?).
-                        Outside of work, I still love to paint. Any given Sunday you'll find me scribbling some happy clouds with my son ☁️ I even teach courses online if you're looking to learn!
-                        I'm passively looking for new positions where I can merge my love for code with my love for the canvas. If you think you've got an opening that I might like, let's connect 🔗
+                        I'm an affiliate marketer turned software engineer from Abuja, Nigeria. I specialize in frontend, primarily with React and node, but love to learn and build with whatever tools are right for the job.I've a thing for open source projects, user-centric solutions, and continuous learning. I'm currently working on TalentBridge.<br />
+                        I'm actively looking for new roles where I can innovate, solve problems, sleep, and repeat. If you think you've got an opening that I might like, let's connect
                     </p>
                     <div className="flex items-center gap-4 mt-4">
-                        <span className="text-[1.2rem]">My links</span>
+                        <span className="text-[1.2rem] text-secondary-400 flex items-center gap-2 justify-center">My links <FaArrowRightLong className="mt-[.3rem]"/></span>
                         <div className="flex items-center gap-4">
-                            <BsLinkedin className="md:w-[1.2rem] md:h-[1.2rem]" />
-                            <BsGithub className="md:w-[1.2rem] md:h-[1.2rem]" />
-                            <FaXTwitter className="md:w-[1.2rem] md:h-[1.2rem]" />
+                            <a href="https://www.linkedin.com/in/luwa-dev">
+                                <BsLinkedin className="md:w-[1.2rem] w-[1.3rem] h-[1.3rem] md:h-[1.2rem] hover:text-secondary-400" />
+                            </a>
+                            <a href="https://github.com/Luwa-Tech">
+                                <BsGithub className="md:w-[1.2rem] w-[1.3rem] h-[1.3rem] md:h-[1.2rem] hover:text-secondary-400" />
+                            </a>
+                            <a href="https://twitter.com/Luwa-Dev">
+                                <FaXTwitter className="md:w-[1.2rem] w-[1.3rem] h-[1.3rem] md:h-[1.2rem] hover:text-secondary-400" />
+                            </a>
                         </div>
                     </div>
-                </article>
-                <article className="">
-                    <h3>Use at work</h3>
-                    <div className="grid grid-rows-2">
-                        <span>JavaScript</span>
-                        <span>TypeScript</span>
-                        <span>React</span>
-                        <span>HTML5</span>
-                        <span>CSS3</span>
-                        <span>NodeJS</span>
-                        <span>TailwindCSS</span>
-                        <span>MongoDB</span>
-                        <span>ExpressJS</span>
+                </section>
+
+                <section className="md:w-[35%] ">
+                    <h3 className="text-[1.4rem] bold flex items-center gap-[.7rem]  font-bold text-primary-900 mb-2 "><FaCode className="text-secondary-400"/>Tech Stacks</h3>
+                    <div className="skills text-[1.2rem]">
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">JavaScript</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">TypeScript</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">React</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">HTML</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">CSS</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">NodeJS</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Tailwind</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">MongoDB</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">ExpressJS</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Github</span>
                     </div>
-                </article>
+                </section>
             </div>
         </>
     )

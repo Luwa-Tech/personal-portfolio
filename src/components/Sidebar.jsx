@@ -1,15 +1,12 @@
-import {NavLink} from "react-router-dom"
-
 const Sidebar = () => {
     return (
-        <nav className="px-2 pt-[.65rem] flex flex-col items-center gap-[4rem]">
-            <span className="text-[1.8rem] font-extrabold">L</span>
-            <ul className="">
-                <li className="nav-upward border-2 border-slate-700 w-[100%] mb-[4rem]"><NavLink to="about" className="text-[1.4rem]">About</NavLink></li>
-                <li className="nav-upward mb-[4rem]"><NavLink to="projects" className="text-[1.4rem]">Projects</NavLink></li>
-                <li className="nav-upward mb-[4rem] border-2 border-slate-700"><NavLink to="experience" className="text-[1.4rem]">Exp.</NavLink></li>
-                <li className="nav-upward"><NavLink to="contact" className="text-[1.4rem]">Contact</NavLink></li>
-            </ul>
+        <nav className="bg-primary-800 z-[6] flex flex-col  fixed left-0 w-[4.5rem] md:w-[6rem] top-0 bottom-0">
+            <span className="text-[1.8rem] text-primary-900 hover:bg-[#d3d3f8] py-2 text-center font-extrabold">L</span>
+            
+            <a className="sidebar-link" href="#about">About</a>
+            <a className="sidebar-link" href="#projects">Projects</a>
+            <a className="sidebar-link" href="#experience">Exp.</a>
+            <a className="sidebar-link" href="#contact">Contact</a>
         </nav>
     )
 }
