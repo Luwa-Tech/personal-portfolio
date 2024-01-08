@@ -54,12 +54,12 @@ const Home = () => {
             </section>
 
             {/* Experience */}
-            <section id="experience" className=" md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:mb-[10rem] text-primary-900 mb-[6rem]">
+            <section id="experience" className=" md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:mb-[10rem] text-primary-900 mb-[10rem]">
                 <Experience />
             </section>
 
             {/* Contact */}
-            <section id="contact" className=" md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:pb-[13rem] mb-[8rem]  text-primary-900">
+            <section id="contact" className=" md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto pb-[8rem] mt-[6rem] md:mt-0 md:pb-[13rem] mb-[8rem]  text-primary-900">
                 <Contact />
             </section> 
         </main>
