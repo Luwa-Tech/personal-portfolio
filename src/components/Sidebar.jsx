@@ -1,7 +1,8 @@
 import { RiContactsFill } from "react-icons/ri"
 import { MdOutlineWork } from "react-icons/md"
 import { GrProjects } from "react-icons/gr"
-import { FcAbout } from "react-icons/fc"
+//import { FcAbout } from "react-icons/fc"
+import { IoIosContact } from "react-icons/io";
 import { Link, animateScroll as scroll } from 'react-scroll'
 
 const Sidebar = () => {
@@ -19,7 +20,7 @@ const Sidebar = () => {
                 smooth={true}
                 offset={-110}
                 duration={500}
-                className="sidebar-link"><FcAbout className="text-primary-900 text-[1.6rem]" />About</Link>
+                className="sidebar-link"><IoIosContact  className="text-primary-900 text-[1.6rem]" />About</Link>
             <Link
                 activeClass="active"
                 to="projects"

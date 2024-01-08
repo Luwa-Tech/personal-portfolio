@@ -1,7 +1,7 @@
 const Experience = () => {
     return (
         <>
-            <h2 className="font-poppins md:text-[3.5rem] font-extrabold relative text-[2rem] after:absolute md:after:top-[48px] after:top-[27px] after:right-[10px] after:block after:h-[.1rem] after:bg-[#d0d0f3] md:after:right-[-40px] after:w-[38%] md:after:w-[65%] ">Experience<span className="text-secondary-400">.</span></h2>
+            <h2 className="font-poppins md:text-[3.5rem] font-extrabold relative text-[2rem] after:absolute md:after:top-[48px] after:top-[27px] after:right-[10px] after:block after:h-[.1rem] after:bg-[#d0d0f3] md:after:right-[-40px] after:w-[30%] md:after:w-[65%] ">Experience<span className="text-secondary-400">.</span></h2>
 
             <section className="mt-4">
                 <article className="border-b-[1.5px] border-[#d0d0f3] py-8">
