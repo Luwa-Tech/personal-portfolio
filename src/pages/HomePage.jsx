@@ -68,7 +68,7 @@ const Home = () => {
             </section>
 
             {/* Contact */}
-            <section id="contact" className=" md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto pb-[8rem] mt-[6rem] md:mt-0 md:pb-[13rem] mb-[8rem]  text-primary-900">
+            <section id="contact" className=" md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto pb-[9.5rem] mt-[6rem] md:mt-0 md:pb-[13rem] mb-[10rem] md:mb-[8rem]  text-primary-900">
                 <Contact />
             </section>
         </main>
