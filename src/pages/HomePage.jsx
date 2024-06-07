@@ -35,8 +35,8 @@ const Home = () => {
             {/* Hero */}
             <section className="md:w-[70%] pl-[5.5rem] pr-4 md:px-0 mx-auto md:py-[13rem] py-[10rem] text-primary-900">
                 <div className="md:w-[70%] flex flex-col gap-2 ">
-                    <h1 className="font-extrabold font-poppins md:text-[5rem] leading-normal text-[3.3rem]">Hey, I'm Umar<span className="text-secondary-400">.</span></h1>
-                    <h2 className="md:text-[2rem] text-[1.7rem] leading-normal">I'm a Software Engineer</h2>
+                    <h1 className="font-extrabold font-poppins md:text-[5rem] leading-normal text-[3.3rem]">Hey there, I'm Umar<span className="text-secondary-400">.</span></h1>
+                    <h2 className="md:text-[2rem] text-[1.7rem] leading-normal">Software Engineer</h2>
                     <p className="text-[1.2rem]">Please take a look around, see what I've been up to recently, and let's see what we can achieve together.</p>
 
                     <Link

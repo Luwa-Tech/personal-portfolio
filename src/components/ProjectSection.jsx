@@ -27,8 +27,8 @@ const Projects = () => {
                             </a>
                         </div>
                     </div>
-                    <span className="text-secondary-400 font-bold text-[1rem]">React - NodeJS - TailwindCSS - Stripe - TypeScript</span>
-                    <p className="text-[1.2rem] mt-2">Exclusive is an e-commerce web application with a seamless user experience, featuring - robust search functionality, local storage..<a href="https://github.com/Luwa-Tech/Exclusive-ecommerce-app" className="text-secondary-400 font-bold hover:underline cursor-pointer">Learn more<IoIosArrowForward className="inline  w-[1rem] h-[1rem]" /></a></p>
+                    <span className="text-secondary-400 font-bold text-[1rem]">React - NodeJS - TailwindCSS - Stripe - TypeScript - Auth0</span>
+                    <p className="text-[1.2rem] mt-2">Exclusive is an e-commerce web application with a seamless user experience, featuring - robust search functionality...<a href="https://github.com/Luwa-Tech/Exclusive-ecommerce-app" className="text-secondary-400 font-bold hover:underline cursor-pointer">Learn more<IoIosArrowForward className="inline  w-[1rem] h-[1rem]" /></a></p>
                 </article>
 
                 <article>

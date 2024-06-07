@@ -11,8 +11,7 @@ const About = () => {
             <div className="flex flex-col gap-6 md:flex-row justify-between">
                 <section className="md:w-[65%] mb-8 md:mb-0">
                     <p className="text-[1.2rem]">
-                        I'm an affiliate marketer turned software engineer from Abuja, Nigeria. I specialize in frontend, primarily with React and node, but love to learn and build with whatever tools are right for the job.I've a thing for open source projects, user-centric solutions, and continuous learning. I'm currently working on <a href="https://talentbridge-app.netlify.app/" className="text-secondary-400">TalentBridge</a>.<br />
-                        I'm actively looking for new roles where I can innovate, solve problems, sleep, and repeat. If you think you've got an opening that I might like, let's connect
+                    I'm an affiliate marketer turned full-stack engineer, working primarily with React and Nodejs, but love to learn and build with whatever tools are right for the job. I've a thing for open source projects, user-centric solutions, and continuous learning. I'm actively looking for new roles where I can innovate, solve problems, sleep, and repeat. let's connect
                     </p>
                     <div className="flex items-center gap-4 mt-4">
                         <span className="text-[1.2rem] text-secondary-400 flex items-center gap-2 justify-center">My links <FaArrowRightLong className="mt-[.3rem]"/></span>
@@ -36,13 +35,12 @@ const About = () => {
                         <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">JavaScript</span>
                         <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">TypeScript</span>
                         <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">React</span>
-                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">HTML</span>
-                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">CSS</span>
-                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">NodeJS</span>
                         <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Tailwind</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Postgres</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">NodeJS</span>
                         <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">MongoDB</span>
                         <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">ExpressJS</span>
-                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Github</span>
+                        <span className="px-1 py-1 bg-primary-800 rounded-[.8rem]">Docker</span>
                     </div>
                 </section>
             </div>
