@@ -26,7 +26,7 @@ img{
 }
 
 .sidebar-link {
-    @apply text-[.7rem] text-primary-900 hover:border-r-[1.5px] md:text-[.9rem] hover:border-r-secondary-400 hover:bg-[#d3d3f8] py-[1.4rem] flex justify-center font-semibold flex-col gap-[.1rem] items-center cursor-pointer
+    @apply text-[.7rem] text-primary-900 hover:border-r-[1.5px] md:text-[.9rem] hover:border-r-secondary-400 hover:bg-[#d3d3f8] py-[1.4rem] flex justify-center font-semibold flex-col gap-[.1rem] items-center cursor-pointer mt-[3px]
 }
 
 .active {
