@@ -4,6 +4,7 @@ import { BsGithub } from "react-icons/bs"
 
 import talentBridge from "../assets/images/talentbridge.png"
 import exclusive from "../assets/images/exclusive.png"
+import attendancehub from "../assets/images/attendance.jpeg"
 
 const Projects = () => {
     return (
@@ -11,6 +12,27 @@ const Projects = () => {
             <h2 className="font-poppins md:text-[3.5rem] font-extrabold relative text-right text-[2rem] after:absolute md:after:top-[48px] after:top-[27px] after:left-[4px] after:block after:h-[.1rem] after:bg-[#d0d0f3] md:after:left-[-5px] after:w-[45%] md:after:w-[70%]">Projects<span className="text-secondary-400">.</span></h2>
 
             <section className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-4">
+
+                 <article>
+                    <div className="pt-12 md:pt-14 px-6 md:px-8 bg-primary-800 rounded-[.5rem]">
+                        <img src={attendancehub} alt="talentbridge website home page" />
+                    </div>
+                    <div className="flex items-center justify-between mt-4">
+                        <h3 className="text-[1.4rem] md:text-[1.5rem] font-extrabold">AttendanceHub</h3>
+                        <div className="flex items-center gap-2">
+                            <a href="https://github.com/Luwa-Tech/AttendanceHub">
+                                <BsGithub className=" w-[1.4rem] h-[1.4rem] hover:text-secondary-400" />
+                            </a>
+
+                            <a href="https://attendancehub-client.onrender.com">
+                                <GoProjectSymlink className="w-[1.4rem] h-[1.4rem] hover:text-secondary-400" />
+                            </a>
+                        </div>
+                    </div>
+                    <span className="text-secondary-400 font-bold text-[1rem]">React - NodeJS - MongoDB - ExpressJS - Material-Tailwind</span>
+                    <p className="text-[1.2rem] mt-2">AttendanceHub is a comprehensive attendance management system designed to streamline the process of tracking employee attendance...<a href="https://github.com/Luwa-Tech/AttendanceHub" className="text-secondary-400 font-bold hover:underline cursor-pointer">Learn more<IoIosArrowForward className="inline  w-[1rem] h-[1rem]" /></a></p>
+                </article>
+                
             <article>
                     <div className="pt-12 md:pt-14 px-6 md:px-8 bg-primary-800 rounded-[.5rem]">
                         <img src={exclusive} alt="exclusive website home page" />
