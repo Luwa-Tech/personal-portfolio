@@ -4,7 +4,7 @@ import { BsGithub } from "react-icons/bs"
 
 import talentBridge from "../assets/images/talentbridge.png"
 import exclusive from "../assets/images/exclusive.png"
-import attendancehub from "../assets/images/attendance.jpeg"
+import attendancehub from "../assets/images/attendancehub.jpeg"
 
 const Projects = () => {
     return (
