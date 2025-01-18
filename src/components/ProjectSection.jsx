@@ -30,7 +30,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <span className="text-secondary-400 font-bold text-[1rem]">React - NodeJS - MongoDB - ExpressJS - Material-Tailwind</span>
-                    <p className="text-[1.2rem] mt-2">AttendanceHub is a comprehensive attendance management system designed to streamline the process of tracking employee attendance...<a href="https://github.com/Luwa-Tech/AttendanceHub" className="text-secondary-400 font-bold hover:underline cursor-pointer">Learn more<IoIosArrowForward className="inline  w-[1rem] h-[1rem]" /></a></p>
+                    <p className="text-[1.2rem] mt-2">AttendanceHub is a comprehensive attendance management system designed to address the challenges of tracking employee attendance in a refinery....<a href="https://github.com/Luwa-Tech/AttendanceHub" className="text-secondary-400 font-bold hover:underline cursor-pointer">Learn more<IoIosArrowForward className="inline  w-[1rem] h-[1rem]" /></a></p>
                 </article>
                 
             <article>
